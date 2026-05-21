@@ -27,5 +27,5 @@ def compute_statistics(data, grouped_df, frequency, midpoints):
         return stats_df
 
     except Exception as e:
-        print(f"❌ Error in computing statistics: {e}")
+        print(f" Error in computing statistics: {e}")
         return pd.DataFrame()
