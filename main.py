@@ -28,7 +28,7 @@ def main():
                 stats_df = compute_statistics(data, grouped_df, frequency, midpoints)
                 print(stats_df)
                 stats_df.to_csv("statistics.csv", index=False)
-                print("✅ Statistics saved to statistics.csv")
+                print(" Statistics saved to statistics.csv")
         
         elif choice == '3':
             print("\n --- Draw Histogram here---\n")  
